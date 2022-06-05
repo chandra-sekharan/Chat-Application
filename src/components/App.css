@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: poppins , sans-serif;
+}
+body{
+    width: 100%;
+    background:linear-gradient(to left,rgba(8, 240, 97, 0.562),rgba(27, 243, 243, 0.829));
+}
+.App {
+    width: 100%;
+    height: auto;
+    background:linear-gradient(to left,rgba(8, 240, 97, 0.562),rgba(27, 243, 243, 0.829));
+}
+
+@media only screen and (max-width:750px){
+    body{
+        background: white;
+    }
+    .App{
+        background: white;
+    }
+}
